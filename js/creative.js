@@ -45,4 +45,8 @@
     // Initialize WOW.js Scrolling Animations
     new WOW().init();
 
+    $('.business-analyst-box,.scrum-master-box').magnificPopup({
+      type: 'image'
+    });
+
 })(jQuery); // End of use strict
